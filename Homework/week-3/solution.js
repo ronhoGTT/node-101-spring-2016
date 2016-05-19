@@ -7,7 +7,6 @@ var myFunc = function calculate(equation){
     console.log(elements);
     
     elements.forEach(function(val, i){
-        var operation;
         
         if(i === 0){
             result = Number(val);
