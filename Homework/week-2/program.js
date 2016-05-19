@@ -6,6 +6,6 @@ arguments.forEach(function(val){
     if(!isNaN(numVal)){
         total += numVal;
     }
-})
+});
 
 console.log(total);
